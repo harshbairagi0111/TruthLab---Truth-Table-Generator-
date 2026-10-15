@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="tlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B7A5E" />
+      <stop offset="100%" stop-color="#115440" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rounded Shield / Tile -->
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#tlGrad)" />
+  <rect x="2" y="2" width="44" height="44" rx="10" stroke="#34D399" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Subtle Logic Matrix / Academic Grid Pattern -->
+  <circle cx="12" cy="12" r="1.5" fill="#FFFFFF" fill-opacity="0.2" />
+  <circle cx="36" cy="12" r="1.5" fill="#FFFFFF" fill-opacity="0.2" />
+  <circle cx="12" cy="36" r="1.5" fill="#FFFFFF" fill-opacity="0.2" />
+  <circle cx="36" cy="36" r="1.5" fill="#FFFFFF" fill-opacity="0.2" />
+
+  <!-- Semantic Entailment Double Turnstile (⊨) Logic Symbol -->
+  <!-- Vertical Double Bar -->
+  <rect x="13" y="12" width="3" height="24" rx="1.5" fill="#FFFFFF" />
+  <rect x="18" y="12" width="3" height="24" rx="1.5" fill="#FFFFFF" />
+
+  <!-- Horizontal Entailment Bars -->
+  <rect x="20" y="16.5" width="15" height="3" rx="1.5" fill="#FFFFFF" />
+  <rect x="20" y="28.5" width="15" height="3" rx="1.5" fill="#FFFFFF" />
+
+  <!-- Emerald Light Accent Node -->
+  <circle cx="35" cy="18" r="2.5" fill="url(#accentGrad)" />
+  <circle cx="35" cy="30" r="2.5" fill="url(#accentGrad)" />
+</svg>

@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #F7F5EF;
+    --card-bg: #FFFFFF;
+    --primary: #176B52;
+    --primary-hover: #125541;
+    --primary-light: #EAF1E8;
+    --heading: #183B32;
+    --text-body: #2B3833;
+    --text-muted: #5A6862;
+    --border-soft: #D8DFD5;
+    --border-subtle: #E6ECE4;
+  }
+
+  .dark {
+    --bg-main: #0D1714;
+    --card-bg: #14221E;
+    --primary: #2CA782;
+    --primary-hover: #37BC94;
+    --primary-light: #1A312A;
+    --heading: #E6EFEA;
+    --text-body: #D4E2DC;
+    --text-muted: #8FA69D;
+    --border-soft: #263C34;
+    --border-subtle: #1F322B;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-body);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  /* Academic print styles */
+  @media print {
+    body {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+    header, nav, button, select, .no-print {
+      display: none !important;
+    }
+    .overflow-x-auto, .max-h-\[580px\] {
+      overflow: visible !important;
+      max-height: none !important;
+    }
+    table {
+      border: 1px solid #183B32 !important;
+      color: #000000 !important;
+      width: 100% !important;
+    }
+    th {
+      background: #EAF1E8 !important;
+      color: #183B32 !important;
+      border: 1px solid #D8DFD5 !important;
+    }
+    td {
+      border: 1px solid #D8DFD5 !important;
+      color: #000000 !important;
+      background: transparent !important;
+    }
+  }
+}

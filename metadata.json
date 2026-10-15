@@ -1,0 +1,6 @@
+{
+  "name": "TruthLab — Truth Table Generator",
+  "description": "Interactive propositional logic workbench, truth table generator, and mathematical step-by-step evaluator for college propositional logic activities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
